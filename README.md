@@ -7,7 +7,7 @@ This application is created by the java language. You can perform operation like
 Java\
 MySql\
 JDBC\
-Spring Tool Suite 4\
+Spring Tool Suite 4
 
 # Features
 
