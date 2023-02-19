@@ -86,7 +86,7 @@ public class StudentDao {
 	    
 	    ResultSet result = state.executeQuery(qr); 
 	    
-	    System.out.println("\n\n=====================ALL RECORDS===================\n\n");
+	    System.out.println("\n\n=====================ALL RECORDS===================");
 	    
 	    
 	    while(result.next()) {
@@ -100,7 +100,7 @@ public class StudentDao {
 	    		
 	    }
 	    
-	    System.out.println("======================================================");
+	    System.out.println("=====================================================\n\n");
 		
 	} catch (Exception e) {
 		// TODO: handle exception

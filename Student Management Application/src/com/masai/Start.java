@@ -61,7 +61,7 @@ public class Start {
     
     else if(c==4) {
     	
-    System.out.println("Thankyou for using the app 😊😊 VIST AGAIN 😊😊");
+    System.out.println("Thankyou for using the app 😊😊j VIST AGAIN 😊😊");
     	
     	break;
     }
