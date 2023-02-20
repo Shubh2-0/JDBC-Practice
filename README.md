@@ -4,10 +4,10 @@
 This application is created by the java language. You can perform operation like adding student, removing student, update student and all other operation related to the School department. 
 
 # Tech Stack
-Java
-MySql
-JDBC
-Spring Tool Suite 4
+Java\
+MySql\
+JDBC\
+Spring Tool Suite 4\
 
 # Features
 
