@@ -20,7 +20,7 @@ Spring Tool Suite 4\
 
 
 # Getting Started
-**Prerequisites:**\n
+**Prerequisites:**\
 mysql for database
 any integrated development environment like STS, eclipse or intellij
 
