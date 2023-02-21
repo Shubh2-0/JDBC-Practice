@@ -221,18 +221,30 @@ public class StudnetDAO_IMPL implements StudentDAO {
 			
 			while(resultSet.next()) {
 			
-			System.out.println("\t"+
-					resultSet.getInt(1)+"\t"+
-			        resultSet.getString(2)+"\t\t"+
-					resultSet.getString(3)+"\t\t"+
-			        resultSet.getString(4)+"\t\t"+
-					resultSet.getBigDecimal(5)+"\t\t"+
-			        resultSet.getString(6)+"\t\t"+
-					resultSet.getInt(7)+"\t"
+//			System.out.println("\t"+
+//					resultSet.getInt(1)+"\t"+
+//			        resultSet.getString(2)+"\t\t"+
+//					resultSet.getString(3)+"\t\t"+
+//			        resultSet.getString(4)+"\t\t"+
+//					resultSet.getBigDecimal(5)+"\t\t"+
+//			        resultSet.getString(6)+"\t\t"+
+//					resultSet.getInt(7)+"\t"
+//					);	
+//				
+			System.out.printf("| %-5s | %-5s | %-5s | %-5s | %-8s | %-4s | %-4s",
+					resultSet.getInt(1)+"\t",
+			        resultSet.getString(2)+"\t\t",
+					resultSet.getString(3)+"\t\t",
+			        resultSet.getString(4)+"\t\t",
+					resultSet.getBigDecimal(5)+"\t\t",
+			        resultSet.getString(6)+"\t\t",
+					resultSet.getInt(7)+"\t\n"
 					);	
-				
-				
 			}
+			
+			
+			
+			
 				
 			System.out.println("======================================================================================================================================\n\n");				
 			}
