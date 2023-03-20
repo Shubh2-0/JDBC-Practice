@@ -10,7 +10,7 @@ public class DBUtils {
  static final String url;	
  static final String username;
  static final String password;
-	
+	// 
  
 /*  here we getting the required things for connect to the database
     by the help of RESOURCEBUNDLE CLASS in which we getting the
